@@ -104,7 +104,7 @@ Ubuntu 20.04 with torch 1.10.1 & CUDA 11.3 on A100 GPU.
 ### Step 2. Training Semantic Field
 
 * #### 2.1 Get Mask2former semantic labels
-  For generating semantic labels of Mask2former, please use our modified version of Mask2former from [here](). You need to create a new conda env.
+  For generating semantic labels of Mask2former, please use our modified version of Mask2former from [here](https://github.com/zyqz97/AerialLifting_Mask2Former). You need to create a new conda env.
   This code is largely based on [MaskFormer](https://github.com/facebookresearch/MaskFormer) and a modified version of [Panapti-Lifting](https://github.com/nihalsid/Mask2Former).
 
   After installing the environment of Mask2former:
