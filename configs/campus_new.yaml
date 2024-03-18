@@ -1,0 +1,16 @@
+
+
+## geo 
+dataset_path: /data/yuqi/Datasets/Aerial_lifting_data_release/Campus_new
+ray_altitude_range: [-95, 30]
+num_instance_classes: 100
+network_type: gpnerf_nr3d
+dataset_type: memory_depth_dji
+label_name: fusion
+use_scaling: False
+sampling_mesh_guidance: True
+depth_dji_loss: True
+wgt_depth_mse_loss: 1
+log2_hashmap_size: 22
+desired_resolution: 8192
+
