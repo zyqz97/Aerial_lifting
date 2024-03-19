@@ -175,7 +175,7 @@ If you find this work useful for your research and applications, please cite our
 ```shell
 @inproceedings{zhang2024aerial,
   title={Aerial Lifting: Neural Urban Semantic and Building Instance Lifting from Aerial Imagery},
-  author={Zhang, Yuqi and Chen, Guanying and Chen, Jiaxing and Cui, Shuguang.},
+  author={Zhang, Yuqi and Chen, Guanying and Chen, Jiaxing and Cui, Shuguang},
   booktitle={CVPR},
   year={2024}
 }
