@@ -85,7 +85,7 @@ class MemoryDataset(Dataset):
             rgbs.append(image_rgbs)
             rays.append(image_rays)
             indices.append(image_indices)
-            if label is not None:
+            if label is not None and hparams.enable_semantic:
                 labels.append(torch.tensor(label, dtype=torch.int))
             if depth_dji != None:
                 depth_djis.append(depth_dji / depth_scale)
